@@ -1,0 +1,30 @@
+{
+  "name": "browser",
+  "version": "1.0.0",
+  "description": "模拟浏览器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts",
+    "debug": "ts-node --inspect-brk app.ts",
+    "proxy": "node-mitmproxy -c proxy.js"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "liuzhihao",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@types/selenium-webdriver": "^4.0.9",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/urlencode": "^1.1.1",
+    "node-mitmproxy": "^3.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "urlencode": "^1.1.0",
+    "xpath": "0.0.27"
+  }
+}
